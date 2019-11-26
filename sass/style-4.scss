@@ -3,8 +3,8 @@ Newspack Theme Styles - Style Pack 4
 */
 
 // Header
-
-.header-solid-background {
+// Solid Background
+.h-sb {
 	.top-header-contain,
 	.middle-header-contain {
 		background-color: $color__background-dark;
@@ -18,8 +18,8 @@ Newspack Theme Styles - Style Pack 4
 		background-color: darken( $color__background-dark, 5% );
 	}
 }
-
-.header-solid-background.header-simplified {
+// Header solid background; short height
+.h-sb.h-sh {
 	.site-header .nav1 .main-menu .sub-menu {
 		a {
 			background-color: $color__text-main;
