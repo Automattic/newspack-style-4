@@ -42,15 +42,6 @@ function newspack_style_4_fonts_url() {
 }
 
 /**
- * Remove the 'Style Pack' customizer option.
- */
-function newspack_style_4_customizer( $wp_customize ) {
-	$wp_customize->remove_control( 'active_style_pack' );
-}
-add_action( 'customize_register', 'newspack_style_4_customizer', 99 );
-
-
-/**
  * Display custom color CSS in customizer and on frontend.
  */
 function newspack_style_4_custom_colors_css_wrap() {
@@ -140,3 +131,8 @@ require get_stylesheet_directory() . '/inc/child-color-patterns.php';
  * Custom typography styles for child theme.
  */
 require get_stylesheet_directory() . '/inc/child-typography.php';
+
+/**
+ * Customizer functions.
+ */
+require get_stylesheet_directory() . '/inc/child-customizer.php';
