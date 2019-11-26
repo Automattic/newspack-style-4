@@ -47,7 +47,7 @@ function newspack_style_4_fonts_url() {
 function newspack_style_4_customizer( $wp_customize ) {
 	$wp_customize->remove_control( 'active_style_pack' );
 }
-add_action( 'customize_register', 'newspack_style_4_customizer' );
+add_action( 'customize_register', 'newspack_style_4_customizer', 99 );
 
 
 /**
