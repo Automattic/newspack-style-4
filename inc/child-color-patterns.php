@@ -1,5 +1,11 @@
 <?php
 /**
+ * Newspack Style 4 Theme: Color Patterns
+ *
+ * @package Newspack Style 4
+ */
+
+/**
  * Add child theme-specific custom colours.
  */
 function newspack_style_4_custom_colors_css() {

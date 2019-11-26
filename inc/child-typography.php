@@ -1,5 +1,11 @@
 <?php
 /**
+ * Newspack Style 4 Theme: Typography
+ *
+ * @package Newspack Style 4
+ */
+
+/**
  * Generate the CSS for custom typography.
  */
 function newspack_style_4_custom_typography_css() {
