@@ -54,7 +54,7 @@
   "scripts": {
     "prebuild:style": "node-sass sass/style.scss style.css --output-style expanded && postcss -r style.css",
     "build:rtl": "rtlcss style.css style-rtl.css",
-    "build:style-editor": "node-sass sass/style-4-editor.scss style-editor.css --output-style expanded && postcss -r style-editor.css",
+    "build:style-editor": "node-sass sass/style-editor.scss style-editor.css --output-style expanded && postcss -r style-editor.css",
     "build": "run-p \"build:*\"",
     "prebuild": "run-p \"prebuild:*\"",
     "watch": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",
